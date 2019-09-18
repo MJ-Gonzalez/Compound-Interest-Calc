@@ -1,0 +1,153 @@
+
+body {
+	font-family: helvetica;
+	font-weight: lighter;
+	letter-spacing: .35px;
+	margin-left:235px;
+	margin-top: 55px;
+
+
+}
+body * {
+	box-sizing: border-box;
+}
+
+h1,h2{
+
+	margin-left:65px;
+	padding:20px;
+	border-bottom: solid;
+	border-color: #1CE8B5;
+	width: 500px;
+	padding-bottom: 10px;
+	padding-left: 1px;
+	margin-left: 95px;
+	font-weight:bold;
+
+}
+
+div{
+	background-color:#5E40E9;
+	position: absolute;
+	height: 400px;
+	width: 1050px;
+
+}
+
+h1{
+	color: white;
+}
+h2{ color: #5E40E9;
+	width: 885px;
+	margin-left:85px;
+}
+
+input{
+	background-color:#5E40E9;
+	color:white;
+	font-size: 15px;
+	border-color:white;
+	border-style:solid;
+	border-width: thin;
+	border-radius:10px;
+	text-align:center;
+	width: 125px;
+	height: 25px;
+	float:right;
+	margin-top: 3px;
+}
+.dollar{
+	position: absolute;
+	left: 200px;
+	top: 6px;
+
+}
+.percent{
+	position: absolute;
+	left: 200px;
+	top: 6px;
+}
+.yrs{
+	position: absolute;
+	left: 200px;
+	top: 6px;
+}
+input:hover{background-color:#1CE8B5;}
+input:focus{background-color:#1CE8B5;}
+
+button{
+	position: relative;
+	z-index: 2;
+	color: white;
+	background-color: #1CE8B5;
+	font-size: 15px;
+	border-style: none;
+	float: right;
+	margin-right: 215px;
+	margin-top: -250px;
+height: 30px;
+}
+
+button:hover{color: white;
+border-radius: 50px;
+border-color: #494949;
+transition: all 0.3s ease 0s;}
+
+ul{
+	margin-top: 80px;
+	column-count:2;
+	column-gap: 20px;
+	width: 1000px;
+	height: 400px;
+	color:white;
+}
+ul li {
+	margin-bottom: 80px;
+	list-style-type:none;
+	margin-left: 55px;
+	padding-right: 100px;
+	position: relative;
+
+}
+
+section{
+	top: 400px;
+	color:#5E40E9;
+	position: absolute;
+	margin-bottom: 100px;
+}
+
+p{
+	margin-top: 40px;
+	margin-left: 86px;
+	float:left;
+	margin-right: 45px;
+
+}
+
+.bottom{
+	position: absolute;
+	top: 163px;
+	width: 250px;
+}
+
+.bottom-val{
+	color: #1CE8B5;
+	/*margin-left: 50px;*/
+	float: right;
+}
+.starting-amount {
+	width: 250px;
+}
+.final-amount{
+	margin-left: 230px;
+	font-size: 20px;
+}
+
+.final-val{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: -180px;
+	color: #1CE8B5;
+	font-size: 30px;
+}
